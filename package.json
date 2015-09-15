@@ -1,0 +1,33 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "ReactStarter is a simple starting point for working with React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdangelo/ReactStarter.git"
+  },
+  "keywords": [
+    "React.js",
+    "Gulp",
+    "Browserify"
+  ],
+  "author": "Grégory D'Angelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdangelo/ReactStarter/issues"
+  },
+  "homepage": "https://github.com/gdangelo/ReactStarter#readme",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  }
+}
