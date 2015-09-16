@@ -10,7 +10,7 @@ module.exports = React.createClass({
     );
   },
   renderList: function () {
-    if(this.props.items && Object.keys(this.props.items).length === 0){
+    if(this.props.items['.value'] === null){
       return <h4>
         Add a todo to get started
       </h4>
